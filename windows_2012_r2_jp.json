@@ -2,10 +2,10 @@
   "builders": [
     {
       "type": "vmware-iso",
-      "iso_url": "http://care.dlservice.microsoft.com/dl/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
+      "iso_url": "http://care.dlservice.microsoft.com/dl/download/5/D/7/5D75EE07-139E-4A96-A3A5-1831C7D28F6F/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_JA-JP-IR3_SSS_X64FREE_JA-JP_DV9.ISO",
       "iso_checksum_type": "md5",
-      "iso_checksum": "5b5e08c490ad16b59b1d9fab0def883a",
-      "headless": true,
+      "iso_checksum": "da4cf727b3693b595e2cc750410159ada4cf727b3693b595e2cc750410159a4",
+      "headless": false,
       "boot_wait": "2m",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
@@ -32,10 +32,10 @@
     },
     {
       "type": "virtualbox-iso",
-      "iso_url": "http://care.dlservice.microsoft.com/dl/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
+      "iso_url": "http://care.dlservice.microsoft.com/dl/download/5/D/7/5D75EE07-139E-4A96-A3A5-1831C7D28F6F/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_JA-JP-IR3_SSS_X64FREE_JA-JP_DV9.ISO",
       "iso_checksum_type": "md5",
-      "iso_checksum": "5b5e08c490ad16b59b1d9fab0def883a",
-      "headless": true,
+      "iso_checksum": "da4cf727b3693b595e2cc750410159a4",
+      "headless": false,
       "boot_wait": "2m",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
